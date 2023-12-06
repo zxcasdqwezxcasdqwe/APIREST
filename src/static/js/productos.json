@@ -1,0 +1,79 @@
+[ 
+    {
+        "id": "libro-01",
+        "titulo": "Introducción a la Programación con Python",
+        "imagen": "./img/libros/informatica/informatica-01.webp",
+        "categoria": "Computacion",
+        "precio": "26.880"
+    },
+    {
+        "id": "libro-02",
+        "titulo": "Python: Guía Paso a Paso Para Aprender Programación Python",
+        "imagen": "./img/libros/informatica/informatica-02.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "38.040"
+    },
+    {
+        "id": "libro-03",
+        "titulo": "Curso de Desarrollo Web. Html, css y Javascript. Edición 2021",
+        "imagen": "./img/libros/informatica/informatica-03.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "62.870"
+    },
+    {
+        "id": "libro-04",
+        "titulo": "Ingenieria Software Connect",
+        "imagen": "./img/libros/informatica/informatica-04.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "12.730"
+    },
+    {
+        "id": "libro-05",
+        "titulo": "Sql Fácil",
+        "imagen": "./img/libros/informatica/informatica-05.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "32.920"
+    },
+    {
+        "id": "libro-06",
+        "titulo": "La Máquina que Cambió el Mundo [Próxima Aparición]",
+        "imagen": "./img/libros/informatica/informatica-06.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "19.230"
+    },
+    {
+        "id": "libro-07",
+        "titulo": "Html&Css: Curso Práctico Avanzado",
+        "imagen": "./img/libros/informatica/informatica-07.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "39.060"
+    },
+    {
+        "id": "libro-08",
+        "titulo": "Análisis y Diseño Detallado de Aplicaciones Informáticas de Gestión.",
+        "imagen": "./img/libros/informatica/informatica-08.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "35.670"
+    }
+]

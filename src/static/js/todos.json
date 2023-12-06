@@ -1,0 +1,239 @@
+[ 
+    {
+        "id": "libro-01",
+        "titulo": "Introducción a la Programación con Python",
+        "imagen": "./img/libros/informatica/informatica-01.webp",
+        "categoria": "Computacion",
+        "precio": "26.880"
+    },
+    {
+        "id": "libro-02",
+        "titulo": "Python: Guía Paso a Paso Para Aprender Programación Python",
+        "imagen": "./img/libros/informatica/informatica-02.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "38.040"
+    },
+    {
+        "id": "libro-03",
+        "titulo": "Curso de Desarrollo Web. Html, css y Javascript. Edición 2021",
+        "imagen": "./img/libros/informatica/informatica-03.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "62.870"
+    },
+    {
+        "id": "libro-04",
+        "titulo": "Ingenieria Software Connect",
+        "imagen": "./img/libros/informatica/informatica-04.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "12.730"
+    },
+    {
+        "id": "libro-05",
+        "titulo": "Sql Fácil",
+        "imagen": "./img/libros/informatica/informatica-05.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "32.920"
+    },
+    {
+        "id": "libro-06",
+        "titulo": "La Máquina que Cambió el Mundo [Próxima Aparición]",
+        "imagen": "./img/libros/informatica/informatica-06.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "19.230"
+    },
+    {
+        "id": "libro-07",
+        "titulo": "Html&Css: Curso Práctico Avanzado",
+        "imagen": "./img/libros/informatica/informatica-07.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "39.060"
+    },
+    {
+        "id": "libro-08",
+        "titulo": "Análisis y Diseño Detallado de Aplicaciones Informáticas de Gestión.",
+        "imagen": "./img/libros/informatica/informatica-08.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "35.670"
+    },
+    {
+        "id": "libro-09",
+        "titulo": "El Programador Pragmatico (Edicion Especial)",
+        "imagen": "./img/libros/informatica/informatica-09.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "37.640"
+    },
+    {
+        "id": "libro-10",
+        "titulo": "El Limpiador de Código: Código de Conducta Para Programadores Profesionales",
+        "imagen": "./img/libros/informatica/informatica-10.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "33.630"
+    },
+    {
+        "id": "libro-11",
+        "titulo": "El Arte de la Invisibilidad",
+        "imagen": "./img/libros/informatica/informatica-11.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "31.120"
+    },
+    {
+        "id": "libro-12",
+        "titulo": "Hacking & cracking. Redes inalámbricas wifi",
+        "imagen": "./img/libros/informatica/informatica-12.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "20.730"
+    },
+    {
+        "id": "libro-13",
+        "titulo": "Meditaciones",
+        "imagen": "./img/libros/filosofia/filosofia-01.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "7.200"
+    },
+    {
+        "id": "libro-14",
+        "titulo": "El Niño, el Topo, el Zorro y el Caballo",
+        "imagen": "./img/libros/filosofia/filosofia-02.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "20.920"
+    },
+    {
+        "id": "libro-15",
+        "titulo": "Silencio",
+        "imagen": "./img/libros/filosofia/filosofia-03.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "8.590"
+    },
+    {
+        "id": "libro-16",
+        "titulo": "Las 48 Leyes del Poder",
+        "imagen": "./img/libros/filosofia/filosofia-04.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "18.920"
+    },
+    {
+        "id": "libro-17",
+        "titulo": "El Arte de Vivir con Sencillez",
+        "imagen": "./img/libros/filosofia/filosofia-05.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "10.120"
+    },
+    {
+        "id": "libro-18",
+        "titulo": "Crear Capacidades",
+        "imagen": "./img/libros/filosofia/filosofia-06.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "3.150"
+    },
+    {
+        "id": "libro-19",
+        "titulo": "Los Dones de la Imperfeccion",
+        "imagen": "./img/libros/filosofia/filosofia-07.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "11.020"
+    },
+    {
+        "id": "libro-20",
+        "titulo": "El Mito de Sisifo",
+        "imagen": "./img/libros/filosofia/filosofia-08.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "9.920"
+    },
+    {
+        "id": "libro-21",
+        "titulo": "La Liberación del Alma: El Viaje más Allá de ti Mismo",
+        "imagen": "./img/libros/filosofia/filosofia-09.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "13.230"
+    },
+    {
+        "id": "libro-22",
+        "titulo": "Dejar ir: El Camino de la Liberación",
+        "imagen": "./img/libros/filosofia/filosofia-10.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "13.010"
+    },
+    {
+        "id": "libro-23",
+        "titulo": "Tao te King. Libro del tao y de su Virtud",
+        "imagen": "./img/libros/filosofia/filosofia-11.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "15.200"
+    },
+    {
+        "id": "libro-24",
+        "titulo": "Los Filósofos Griegos",
+        "imagen": "./img/libros/filosofia/filosofia-12.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "5.180"
+    }
+]

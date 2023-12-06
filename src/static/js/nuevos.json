@@ -1,0 +1,79 @@
+[ 
+    {
+        "id": "libro-01",
+        "titulo": "Introducción a la Programación con Python",
+        "imagen": "./img/libros/informatica/informatica-01.webp",
+        "categoria": "Computacion",
+        "precio": "26.880"
+    },
+    {
+        "id": "libro-02",
+        "titulo": "Python: Guía Paso a Paso Para Aprender Programación Python",
+        "imagen": "./img/libros/informatica/informatica-02.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "38.040"
+    },
+    {
+        "id": "libro-03",
+        "titulo": "Curso de Desarrollo Web. Html, css y Javascript. Edición 2021",
+        "imagen": "./img/libros/informatica/informatica-03.webp",
+        "categoria": {
+            "nombre": "Computacion",
+            "id": "computacion"
+        },
+        "precio": "62.870"
+    },
+    {
+        "id": "libro-04",
+        "titulo": "La Implacable Verdad Policial",
+        "imagen": "./img/libros/derecho/derecho-01.webp",
+        "categoria": {
+            "nombre": "Derecho",
+            "id": "derecho"
+        },
+        "precio": "20.830"
+    },
+    {
+        "id": "libro-13",
+        "titulo": "Meditaciones",
+        "imagen": "./img/libros/filosofia/filosofia-01.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "7.200"
+    },
+    {
+        "id": "libro-14",
+        "titulo": "El Niño, el Topo, el Zorro y el Caballo",
+        "imagen": "./img/libros/filosofia/filosofia-02.webp",
+        "categoria": {
+            "nombre": "Filosofia",
+            "id": "filosofia"
+        },
+        "precio": "20.920"
+    },
+    {
+        "id": "libro-07",
+        "titulo": "Enigmas y misterios: Las grandes interrogantes de la historia y lo oculto",
+        "imagen": "./img/libros/historia/historia-02.webp",
+        "categoria": {
+            "nombre": "Historia",
+            "id": "historia"
+        },
+        "precio": "12.290"
+    },
+    {
+        "id": "libro-08",
+        "titulo": "NO LE TEMA A LOGICA Y CONJUNTOS",
+        "imagen": "./img/libros/matematicas/Matemáticas-01.webp",
+        "categoria": {
+            "nombre": "Matematicas",
+            "id": "matematicas"
+        },
+        "precio": "14.000"
+    }
+]    
