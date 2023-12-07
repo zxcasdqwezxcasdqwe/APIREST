@@ -104,7 +104,7 @@ function librosNuevos(productosElegidos) {
 
 let todos = [];
 
-fetch("./js/todos.json")
+fetch("/libros")
     .then(response => response.json())
     .then(data => {
         productos = data;
@@ -124,7 +124,7 @@ function todosLosLibros(productosElegidos) {
         div.innerHTML = `
         <div class="product-item bg-light mb-4" id"producto-todos">
             <div class="product-img position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="${producto.imagen}" alt="${producto.titulo}">
+                <img class="img-fluid w-100" src="static/${producto.imagen}" alt="${producto.titulo}">
                 <div class="product-action">
                     <a class="btn btn-outline-dark btn-square" href="${producto.id}"><i class="fa fa-shopping-cart"></i></a>
                     <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>

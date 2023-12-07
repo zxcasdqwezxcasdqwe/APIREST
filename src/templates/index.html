@@ -30,12 +30,12 @@
                 </a>
             </div>
             <div class="col-lg-4 col-6 text-left">
-                <form action="">
+                <form name="formSearch" method="POST" action="{{url_for('buscarLibro')}}">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Buscar por título o autor">
+                        <input type="text" class="form-control" name="buscar" placeholder="Buscar por título o autor">
                         <div class="input-group-append">
                             <span class="input-group-text bg-dark text-primary">
-                                <i class="fa fa-search"></i>
+                                <button type="submit" class="btn btn-outline-dark btn-square" href=""></a><i class="fa fa-search"></i></button>
                             </span>
                         </div>
                     </div>
@@ -84,9 +84,9 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="index.html" class="nav-item nav-link active"> Inicio</a>
-                            <a href="shop.html" class="nav-item nav-link"> Libros</a>
-                            <a href="detail.html" class="nav-item nav-link"> Descripciones</a>
+                            <a href="/" class="nav-item nav-link active"> Inicio</a>
+                            <a href="/shop" class="nav-item nav-link"> Libros</a>
+                            <a href="/detail/libro-02" class="nav-item nav-link"> Descripciones</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Otros <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
@@ -128,20 +128,20 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item bg-light position-relative active" style="height: 430px;">
-                            <img class="position-absolute w-100 h-100" src=" " style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="{{url_for('static',filename='img/otros/libros-impresos.jpg')}}" style="object-fit: cover;">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
-                                    <h1 class="display-4 text-dark mb-3 animate__animated animate__fadeInDown">Librería UCN</h1>
-                                    <p class="mx-md-5 px-5 text-dark animate__animated animate__bounceIn">¡Bienvenido a Librería UCN, tu destino literario!</p>
+                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Librería UCN</h1>
+                                    <p class="mx-md-5 px-5 text-white animate__animated animate__bounceIn">¡Bienvenido a Librería UCN, tu destino literario!</p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item position-relative" style="height: 430px;">
-                            <img class="position-absolute w-100 h-100" src=" " style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="{{url_for('static',filename='img/otros/gente-leyendo.jpg')}}" style="object-fit: cover;">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
-                                    <h1 class="display-4 text-dark mb-3 animate__animated animate__fadeInDown">Comunidad</h1>
-                                    <p class="mx-md-5 px-5 text-dark animate__animated animate__bounceIn">Unete a nuestra comunidad, compartenos tu opinion acerca de cada libro y como mejorar como comunidad.</p>
+                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Comunidad</h1>
+                                    <p class="mx-md-5 px-5 text-white animate__animated animate__bounceIn">Unete a nuestra comunidad, compartenos tu opinion acerca de cada libro y como mejorar como comunidad.</p>
                                 </div>
                             </div>
                         </div>
